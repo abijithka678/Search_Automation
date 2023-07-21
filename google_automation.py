@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
-
 path = 'C:\\chromedriver\\chromedriver.exe'
 service_dir = Service(executable_path=path)
 service_dir.start()
